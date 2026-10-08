@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.data/
+playwright-report/
+test-results/
+*.log
+.env*
+!.env.example
+
+*.tsbuildinfo
+dist-portable/
+artifacts/SON-DOZ-oyna.html
