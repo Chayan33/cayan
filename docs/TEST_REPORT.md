@@ -33,3 +33,9 @@ Yedi senaryonun tamamı geçti. İlk tam turda 5/7 geçti; düşük kare hızı 
 `npm run build` TypeScript denetimiyle birlikte geçti. Yüksek grafik ayarı, karakter önizlemesi ve yağmur/gece sahnesi gerçek Chromium/WebGL üzerinde açıldı; görsel kontrol yapıldı. 1080p/60 FPS hedefi gerçek GPU donanımında ölçülmedi. Üretim paketi geliştirme amaçlı `window.__SONDOZ` erişimini içermez.
 
 Ekran görüntüleri `artifacts/` altında bulunur. Bunlar oyunun gerçek görüntüleridir; dışarıdan üretilmiş temsili çizimler değildir.
+
+## İndirilebilir sürüm
+
+Tek HTML dosyası HTTP üzerinden Chromium’da açıldı; belge yüklenince internet erişimi kapatıldı. Gerçek klavye hareketi ve kaydetme başarıyla denetlendi. Başlangıç belgesi dışında ağ isteği yoktu; JavaScript hatası yoktu; geliştirme erişimi yoktu. Bu ortamın yönetilen Chromium politikası `file://` açılışını engellediğinden doğrudan yerel dosya açılışı bu makinede sınanamadı.
+
+GitHub Actions üretim ve indirilebilir sürüm derlemesi başarılı. Pages sitesi oluşturma adımı entegrasyon yetkisi nedeniyle reddedildi; bu kayıt canlı yayın başarısı olarak sunulmaz.

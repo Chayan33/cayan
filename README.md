@@ -4,6 +4,10 @@ Karayaka’da geçen, Türkçe, üçüncü şahıs bir 3D tarayıcı oyunu. Reac
 
 Bu depo, oynanabilir **0.1 geliştirme sürümüdür**. Tasarım belgesindeki stüdyo ölçeğindeki nihai oyunun bütün ayrıntılarının tamamlandığı iddia edilmez. Uygulanan sistemler ve mevcut sınırlar aşağıda açıkça belirtilmiştir.
 
+## Hemen incele
+
+[Oynanabilir sürümü indir (ZIP)](https://github.com/Chayan33/cayan/raw/refs/heads/main/artifacts/SON-DOZ-oyna.zip). ZIP’i çıkar, `SON-DOZ-oyna.html` dosyasını masaüstü tarayıcında aç ve **Yeni oyun** ile başla. Bu paket tek oyunculudur ve bütün varlıkları içerir.
+
 ## Çalıştırma
 
 Node.js 22.12+ veya 24 kullanın.
